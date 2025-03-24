@@ -1,0 +1,86 @@
+Index$Texte Anglais$Texte Français
+intro$Odor knowledge graph$Graphe de connaissances sur les odeurs
+titleTool$SketchOscent$SketchOscent
+edgeLabel$Membership of one descriptor to another$Appartenance d'un descripteur à un autre
+nodeLabel$Odor descriptor$Descripteur de l'odeur
+nodeDepthColorLabel$Node depth$Profondeur du nœud
+mainPoleColorLabel$Main poles affiliations$Parenté des pôles principaux
+nodeSizeDescendant$By instances$Par instances
+nodeSizeMolecule$By molecules$Par molécules
+moreInformation$Home$Accueil
+searchGroupe$Search :$Recherche :
+searchOdor$Odor :$Odeur :
+searchOdorInput$Search by name$Rechercher par nom
+searchProduct$Product :$Produit :
+searchProductInput$Search by product name$Rechercher par nom de produit
+searchMolecule$Molecule :$Molecule :
+searchMoleculeInput$Search by molecule name or CAS$Rechercher la molécule par nom ou CAS
+returnToGraph$Return to the full network$Revenir au graphe complet
+informationPaneOdor$Odor$Odeur
+informationPaneProduct$Product : $Produit : 
+informationPaneMolecule$Molecule : $Molécule : 
+neighbourhoodTool$Neighbourhood$Voisinage
+level1$Level 1$Niveau 1
+level2$Level 2$Niveau 2
+fullChain$Full chain$Chaîne complète
+cooccurrence$Co-occurrences$Co-occurrences
+productList$Related products$Produits associés
+moleculeList$Related molecules$Molécules associées
+moreGeneral$More general$Plus génériques
+moreSpecific$More specific$Plus spécifiques
+cumulative$cumulative :$cumulatif :
+advancedNeighbourhood$Advanced neighbourhood$Voisinage avancé
+advancedNeighTool$$
+parents$Parents$Parents
+children$Children$Enfants
+grandparents$Grandparents$Grand-parents
+grandchildren$Grandchildren$Petits-enfants
+ancestors$All ancestors$Tous les ancêtres
+descendants$All descendants$Tous les descendants
+brosis$Siblings$Frères / soeurs
+coparents$Co-parents$Co-parents
+cooccurrences$Co-occurrences$Co-occurrences
+cooccurrence-threshold$Co-occurrences display threshold:$Seuil d'affichage des co-occurrences :
+$$
+greygraphout$Grey the graph out$Griser le graphe
+duplications$Duplications$Duplications
+cooccurrences$Co-occurrences$Co-occurrences
+none$None$Aucun
+niveau$Depth$Profondeur
+taille$Descendants$Descendants
+type$Category$Catégorie
+title$$
+DuplicationOdor$Duplicate Nodes$Sommets dupliqués
+SpecificOdor$Child nodes, more specific odors$Sommets enfants de l'odeur, une odeur plus spécifique
+GeneralOdor$Parent nodes, more general odors$Sommets parents, odeurs plus générales
+ProductOdor$Products described by this odor (number of products / cumulative number with descendants)$Produits décrits par cette odeur (nombre de produits / nombre de produits cumulatif sur les descendants)
+MoleculeOdor$Molecules described by this odor (number of molecules / cumulative number with descendants)$Molécules décrites par cette odeur (nombre de molécules / nombre de molécules cumulatif sur les descendants)
+CoocurrenceOdor$Odors co-occurring on the same molecules described by the selected odor (number of odors)$Odeurs appariées avec l'odeur sélectionnée sur les même molécules (nombre d'odeur)
+OdorMolecule$Odors describing this molecule (number of odeurs)$Odeurs décrivant la molécule sélectionnée (nombre d'odeurs)
+OdorProduit$Odors describing this product (number of odeurs)$Odeurs décrivant ce produit (nombre d'odeurs)
+MoreGeneralProduit$Non cited parents of the odors describing this product (number of odeurs)$Odeurs parents non citées parmi les odeurs décrivant ce produit (nombre d'odeurs)
+MoleculeProduit$Molecules of the product (number of molecules)$Molécules du produit (Nombre de molécules) 
+CoocurrenceProduit$Products with similar molecules or odors as this product (number of products)$Produits dont la composition moléculaire ou odorante est similaires à ce produits (nombre de produits)
+GeneralMolecule$Non cited parents of the odors describing this molecule (number of odeurs)$Odeurs parents non citées parmi les odors décrivant cette molécule (nombre d'odeurs)
+ProductMolecule$Products containing this molecules (number of products)$Produits composés de cette molécules (nombre de produits)
+CoocurrenceMolecule$Molecules with similar odors as this molecule (number of molecules)$Molécules dont l'odeur est similaires à cette molécule (nombre de molécules)
+molecule$odour number associated with the molecule$Nombre d'odeur associé à la molécule
+product$number of molecules associated with the product$Nombre de molécule associé au produit
+$$
+texteCoocurence$$
+Produit$(1;2;3;4;5;6) :#1: Jaccard similarity between the molecule profile of the 2 products;#2: number of molecules of the selected product;#3: number of molecules of the listed product;#4: cosine similarity between the odeur profile of the 2 products;#5: number of odors describing the selected product;#6: number of odors describing the listed product$(1; 2; 3; 4; 5; 6) :#1: Similarité de Jacquard entre les compositions moléculaires des 2 produits;#2: nombre de molécules du produit sélectionné;#3: nombre de molécules du produit de cette liste;#4: Similarité cosinus entre les profils odorants profile des 2 produits;#5: nombre d'odeurs décrivant le produit sélectionné;#6: nombre d'odeurs décrivant le produit de cette liste
+Odor$conditional frequency  (cumulative number of molecules described by the two odors) / (cumulative number of molecules described the selected odor)$frequence conditionnelle (nombre cumulé de molécules décrites par les deux odeurs) / (nombre cumulé de molécules décrites par l'odeur sélectionnée)
+Molecule$(1; 2; 3) :#1: Jaccard similarity between the odor profile of the 2 molecules;#2: number of odors of the selected molecule;#3: number of odors of the listed molecule$(1; 2; 3) :#1: Similarité de Jacquard entre les profils odorants des 2 molécules;#2: nombre d'odeurs de la molécule sélectionné;#3: nombre d'odeurs de la molécule de cette liste
+$$
+thisIsOdor$This is Odor, the root node.$Ceci est Odeur, le nœud racine.
+thisIsVirtual$This is a virtual pole for leaf descriptors that do not belong to any other subpole.$Ceci est un pôle virtuel pour les descripteurs feuilles qui n'appartiennent à aucun autre sous-pôle.
+searchResults$Search Results: $Résultats de la recherche : 
+noResult$No results found.$Aucun résultat trouvé.
+min3Letters$You must search for a name with a minimum of 3 letters.$Vous devez chercher un nom d'au moins 3 lettres.
+Synonym$Synonym$Synonyme
+productOdors$Product odors$Odeurs du produit
+moleculeOdors$Molecule odors$Odeurs de la molécule
+descriptionstatsproduct$Percentage of cooccurrence with the searched product / Common molecules with the searched product / Molecules present in the compared product / Cosine between compared products in percent / Common odors with the searched product / Odors present in the compared product$Pourcentage de cooccurrence avec le produit recherché / Molécules communes avec le produit recherché / Molécules présentes dans le produit comparé / Cosinus entre les produits comparés en pourcentage / Odeurs communes avec le produit recherché / Odeurs présentes dans le produit comparé
+noLink$No link to 'TheGoodScentsCompany' with this odor$Pas de lien vers 'TheGoodScentsCompany' avec cette odeur
+connectionTitle$Connections$Connexions
+otherNameOdor$Français$English
